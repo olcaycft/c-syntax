@@ -1,7 +1,7 @@
-05:32:42 **** Incremental Build of configuration Debug for project firstattempt ****
+06:18:11 **** Rebuild of configuration Debug for project firstattempt ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o firstattempt.o "..\\firstattempt.c" 
-gcc -o firstattempt.exe firstattempt.o 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o firstattempt.exe "src\\main.o" 
 
-05:32:43 Build Finished. 0 errors, 0 warnings. (took 636ms)
+06:18:11 Build Finished. 0 errors, 0 warnings. (took 911ms)
 
